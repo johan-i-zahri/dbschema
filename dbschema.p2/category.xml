@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="dbschema.feature_1.0.0.qualifier.jar" id="dbschema.feature" version="1.0.0.qualifier">
+      <category name="dbschema.category"/>
+   </feature>
+   <feature url="dbschema.feature.source_1.0.0.qualifier.jar" id="dbschema.feature.source" version="1.0.0.qualifier">
+      <category name="dbschema.category"/>
+   </feature>
+   <category-def name="dbschema.category" label="dbschema Category">
+      <description>
+         dbschema Category
+      </description>
+   </category-def>
+</site>

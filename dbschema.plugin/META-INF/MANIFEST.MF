@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: dbschema.plugin
+Bundle-Vendor: dbschema.plugin
+Bundle-SymbolicName: dbschema.plugin
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.ui,
+  org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: org.earthling.utility.eclipseplugin.Activator
+Automatic-Module-Name: dbschema.plugin

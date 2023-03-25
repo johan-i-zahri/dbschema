@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: dbschema.test
+Bundle-Vendor: dbschema
+Bundle-SymbolicName: dbschema.test
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: dbschema.plugin;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Require-Bundle: junit-jupiter-api
+Automatic-Module-Name: dbschema.test
