@@ -1,4 +1,4 @@
-package org.earthling.utility.eclipseplugin;
+package org.earthling.utility.eclipseplugin.dbschema;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
@@ -9,7 +9,7 @@ import org.osgi.framework.BundleContext;
 public class Activator extends AbstractUIPlugin {
 
 	// The plug-in ID
-	public static final String PLUGIN_ID = "org.earthling.utility.eclipseplugin.plugin"; //$NON-NLS-1$
+	public static final String PLUGIN_ID = "org.earthling.utility.eclipseplugin.dbschema.plugin"; //$NON-NLS-1$
 
 	// The shared instance
 	private static Activator plugin;

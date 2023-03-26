@@ -1,5 +1,6 @@
 package org.earthling.utility.eclipseplugin;
 
+import org.earthling.utility.eclipseplugin.dbschema.Activator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
