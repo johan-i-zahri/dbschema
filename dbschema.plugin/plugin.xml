@@ -5,25 +5,25 @@
          point="org.eclipse.ui.commands">
       <category
             id="dbschema.plugin.commands.category"
-            name="Sample Category">
+            name="DB Schema">
       </category>
       <command
             categoryId="dbschema.plugin.commands.category"
-            id="dbschema.plugin.commands.sampleCommand"
-            name="Sample Command">
+            id="dbschema.plugin.commands.configureCommand"
+            name="Configure DB">
       </command>
    </extension>
    <extension
          point="org.eclipse.ui.handlers">
       <handler
             class="org.earthling.utility.eclipseplugin.dbschema.ConfigureDBSHandler"
-            commandId="dbschema.plugin.commands.sampleCommand">
+            commandId="dbschema.plugin.commands.configureCommand">
       </handler>
    </extension>
    <extension
          point="org.eclipse.ui.bindings">
       <key
-            commandId="dbschema.plugin.commands.sampleCommand"
+            commandId="dbschema.plugin.commands.configureCommand"
             contextId="org.eclipse.ui.contexts.window"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
             sequence="M1+6">
@@ -34,25 +34,25 @@
       <menuContribution
             locationURI="menu:org.eclipse.ui.main.menu?after=additions">
          <menu
-               id="dbschema.plugin.menus.sampleMenu"
-               label="Sample Menu"
-               mnemonic="M">
+               id="dbschema.plugin.menus.configureMenu"
+               label="DB Schema"
+               mnemonic="D">
             <command
-                  commandId="dbschema.plugin.commands.sampleCommand"
-                  id="dbschema.plugin.menus.sampleCommand"
-                  mnemonic="S">
+                  commandId="dbschema.plugin.commands.configureCommand"
+                  id="dbschema.plugin.menus.configureCommand"
+                  mnemonic="C">
             </command>
          </menu>
       </menuContribution>
       <menuContribution
             locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
          <toolbar
-               id="dbschema.plugin.toolbars.sampleToolbar">
+               id="dbschema.plugin.toolbars.dbSchemaToolbar">
             <command
-                  commandId="dbschema.plugin.commands.sampleCommand"
+                  commandId="dbschema.plugin.commands.configureCommand"
                   icon="icons/sample.png"
-                  id="dbschema.plugin.toolbars.sampleCommand"
-                  tooltip="Say hello world">
+                  id="dbschema.plugin.toolbars.configureCommand"
+                  tooltip="DB Schema Configure">
             </command>
          </toolbar>
       </menuContribution>
